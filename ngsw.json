@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1560887098810,
+  "timestamp": 1560887669448,
   "index": "https://franzgilles.github.io/etiketten/index.html",
   "assetGroups": [
     {
@@ -200,7 +200,7 @@
         "https://franzgilles.github.io/etiketten/common.f1d2f2743a6dc1762016.js",
         "https://franzgilles.github.io/etiketten/es2015-polyfills.30de7a2f7a97fe51cd0a.js",
         "https://franzgilles.github.io/etiketten/index.html",
-        "https://franzgilles.github.io/etiketten/main.3ab55571e14420089a95.js",
+        "https://franzgilles.github.io/etiketten/main.96eed324cfb89eb80d6d.js",
         "https://franzgilles.github.io/etiketten/polyfills.9ccc9e25ed7d36fbe127.js",
         "https://franzgilles.github.io/etiketten/runtime.f8ec9f5340b7fc391796.js",
         "https://franzgilles.github.io/etiketten/styles.2b202de66c652fdf6dce.css"
@@ -467,8 +467,8 @@
     "https://franzgilles.github.io/etiketten/common.f1d2f2743a6dc1762016.js": "b7c64befa9d409c1696854f2194ef794503bbd43",
     "https://franzgilles.github.io/etiketten/es2015-polyfills.30de7a2f7a97fe51cd0a.js": "7570d00147578b3761d7f98d057bead1ef857c57",
     "https://franzgilles.github.io/etiketten/hochzeit.0610689a261fce252b79.png": "0fe7293cb8fbc99fd91c8f15f6fb422fb2895442",
-    "https://franzgilles.github.io/etiketten/index.html": "40d99e7b57b2dee902dd62497153405532e1e1c2",
-    "https://franzgilles.github.io/etiketten/main.3ab55571e14420089a95.js": "ab3c4608ec7786df4543b994e6f9d3fca3fef8a6",
+    "https://franzgilles.github.io/etiketten/index.html": "5c80dbe5cf4f87d7a4f41b2218faf374a8bf79a4",
+    "https://franzgilles.github.io/etiketten/main.96eed324cfb89eb80d6d.js": "79440e8b06ad3d34f7d54828251e4109174bdb5c",
     "https://franzgilles.github.io/etiketten/polyfills.9ccc9e25ed7d36fbe127.js": "1719b733a191643a900b0df274abd7593fed160c",
     "https://franzgilles.github.io/etiketten/runtime.f8ec9f5340b7fc391796.js": "d669d605d801925b62dc8c6d523788cbd16a00bf",
     "https://franzgilles.github.io/etiketten/styles.2b202de66c652fdf6dce.css": "6cbaadbf3846cc09bec1d8ce21c88f8fab50d96d"
