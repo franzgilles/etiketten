@@ -1,0 +1,236 @@
+<ion-header>
+  <ion-toolbar color="light" mode="ios">
+    <ion-searchbar [fivCenter]="{horizontal: false, vertical:true}" placeholder="Produkte suchen"></ion-searchbar>
+    <div style="height: 56px">
+      <img (click)="goToHome()" [fivCenter] height="42px" src="assets/dagernova-logo.png" alt="">
+    </div>
+    <ion-buttons slot="end">
+      <ion-button>
+        Warenkorb
+        <ion-icon color="primary" slot="end" name="cart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid fixed>
+    <ion-row style="font-size: 0.7em; border-bottom: 1px solid var(--ion-color-light); padding-bottom: 12px;">
+      <ion-col (click)="goToHome()" size="2"><b>AHRWEIN-SHOP</b></ion-col>
+      <ion-col size="2">RESTURANT</ion-col>
+      <ion-col size="2">WEINPROBEN</ion-col>
+      <ion-col size="2">VERANSTALTUNGEN</ion-col>
+      <ion-col size="2">EVENTLOCATION</ion-col>
+      <ion-col size="2">WEINMANUFAKTUR</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="3" id="menu">
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-card-title slot="end" text-right>KATEGORIEN</ion-card-title>
+          </ion-item-divider>
+          <ion-item>
+            <ion-label text-right><b>WEINE (53)</b></ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>SEKT & SECCO (13)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>BRÄNDE (13)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>DELIKATESSEN (10)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>PROBIERPAKETE (5)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>PRÄSENTE (11)</ion-label>
+          </ion-item>
+          <ion-item (click)="goToEtiketten()">
+            <ion-label text-right>ETIKETT ERSTELLEN</ion-label>
+          </ion-item>
+        </ion-item-group>
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-card-title slot="end" text-right>GESCHMACK</ion-card-title>
+          </ion-item-divider>
+          <ion-item>
+            <ion-label text-right>EDELSÜSS (1)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>SÜSS (1)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>TROCKEN (39)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>HALBTROCKEN (11)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>FEINHERB (4)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>LIEBLICH (6)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>BRUT (2)</ion-label>
+          </ion-item>
+        </ion-item-group>
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-card-title slot="end">PRODUKTLINIE</ion-card-title>
+          </ion-item-divider>
+          <ion-item>
+            <ion-label text-right>BASIS (19)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>EINZELLAGEN (2)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>HANDSCHRIFT (12)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>KLOSTER (5)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>KULT (6)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>LITERWEINE (6)</ion-label>
+          </ion-item>
+        </ion-item-group>
+      </ion-col>
+      <ion-col size="9">
+        <ion-card-subtitle>SIE SIND HIER: <ion-text color="primary">Ahrwein-Shop</ion-text> > Weine
+        </ion-card-subtitle>
+        <ion-text color="primary">
+          <h1>WEINE</h1>
+        </ion-text>
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="1">
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/weine/rot.png">
+                <div>
+                  <span>ROTWEINE</span>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/weine/rose.png">
+                <div>
+                  <span>ROSÉ</span>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/weine/weiss.png">
+                <div>
+                  <span>WEISSWEINE</span>
+                </div>
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row>
+              <ion-col size="1">
+                </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/weine/1.png">
+                <div>
+                  <span>ROTWEINE</span>
+                  <br>
+                  <p>2016 DAGERNOVA Spätburgunder</p>
+                  <ion-text color="primary">
+                    <p>halbtrocken</p>
+                  </ion-text>
+                  <ion-text color="secondary">
+                    <h3>6,90 €</h3>
+                  </ion-text>
+                  <span class="small">9,20 € / Liter</span>
+                  <ion-text color="primary">
+                    <p>Produkt enthält: 0,75 Liter</p>
+                  </ion-text>
+                  <ion-button expand="block" color="dark" fill="outline">
+                    Merkzettel
+                  </ion-button>
+                  <ion-button expand="block" color="dark" fill="outline">
+                    Warenkorb
+                  </ion-button>
+                  <ion-button (click)="goToEtiketten()"  expand="block" color="secondary" fill="outline">
+                    Etikett gestalten
+                  </ion-button>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/weine/2.png">
+                <div>
+                  <span>ROTWEINE</span>
+                  <br>
+                  <p>2017 DAGERNOVA Spätburgunder</p>
+                  <ion-text color="primary">
+                    <p>trocken</p>
+                  </ion-text>
+                  <ion-text color="secondary">
+                    <h3>6,90 €</h3>
+                  </ion-text>
+                  <span class="small">9,20 € / Liter</span>
+                  <ion-text color="primary">
+                    <p>Produkt enthält: 0,75 Liter</p>
+                  </ion-text>
+                  <ion-button expand="block" color="dark" fill="outline">
+                    Merkzettel
+                  </ion-button>
+                  <ion-button expand="block" color="dark" fill="outline">
+                    Warenkorb
+                  </ion-button>
+                  <ion-button (click)="goToEtiketten()"  expand="block" color="secondary" fill="outline">
+                    Etikett gestalten
+                  </ion-button>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/weine/3.png">
+                <div>
+                  <span>ROSÉ</span>
+                  <br>
+                  <p>2018 Spätburgunder Blanc de Noir</p>
+                  <ion-text color="primary">
+                    <p>halbtrocken</p>
+                  </ion-text>
+                  <ion-text color="secondary">
+                    <h3>6,90 €</h3>
+                  </ion-text>
+                  <span class="small">9,20 € / Liter</span>
+                  <ion-text color="primary">
+                    <p>Produkt enthält: 0,75 Liter</p>
+                  </ion-text>
+                  <ion-button expand="block" color="dark" fill="outline">
+                    Merkzettel
+                  </ion-button>
+                  <ion-button expand="block" color="dark" fill="outline">
+                    Warenkorb
+                  </ion-button>
+                  <ion-button (click)="goToEtiketten()" expand="block" color="secondary" fill="outline">
+                    Etikett gestalten
+                  </ion-button>
+                </div>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

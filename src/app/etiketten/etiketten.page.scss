@@ -1,0 +1,13 @@
+#menu {
+    ion-label {
+        font-size: 0.8em;
+    }
+
+    ion-item:hover {
+        cursor: pointer;
+
+        ion-label {
+            color: var(--ion-color-primary);
+        }
+    }
+}

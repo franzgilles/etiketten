@@ -1,0 +1,176 @@
+<ion-header>
+  <ion-toolbar color="light" mode="ios">
+    <ion-searchbar [fivCenter]="{horizontal: false, vertical:true}" placeholder="Produkte suchen"></ion-searchbar>
+    <div style="height: 56px">
+      <img [fivCenter] height="42px" src="assets/dagernova-logo.png" alt="">
+    </div>
+    <ion-buttons slot="end">
+      <ion-button>
+        Warenkorb
+        <ion-icon color="primary" slot="end" name="cart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid fixed>
+    <ion-row style="font-size: 0.7em; border-bottom: 1px solid var(--ion-color-light); padding-bottom: 12px;">
+      <ion-col size="2"><b>AHRWEIN-SHOP</b></ion-col>
+      <ion-col size="2">RESTURANT</ion-col>
+      <ion-col size="2">WEINPROBEN</ion-col>
+      <ion-col size="2">VERANSTALTUNGEN</ion-col>
+      <ion-col size="2">EVENTLOCATION</ion-col>
+      <ion-col size="2">WEINMANUFAKTUR</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="3" id="menu">
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-card-title slot="end" text-right>KATEGORIEN</ion-card-title>
+          </ion-item-divider>
+          <ion-item (click)="goToWines()">
+            <ion-label text-right>WEINE (53)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>SEKT & SECCO (13)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>BRÄNDE (13)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>DELIKATESSEN (10)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>PROBIERPAKETE (5)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>PRÄSENTE (11)</ion-label>
+          </ion-item>
+          <ion-item (click)="goToEtiketten()">
+            <ion-label text-right>ETIKETT ERSTELLEN</ion-label>
+          </ion-item>
+        </ion-item-group>
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-card-title slot="end" text-right>GESCHMACK</ion-card-title>
+          </ion-item-divider>
+          <ion-item>
+            <ion-label text-right>EDELSÜSS (1)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>SÜSS (1)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>TROCKEN (39)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>HALBTROCKEN (11)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>FEINHERB (4)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>LIEBLICH (6)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>BRUT (2)</ion-label>
+          </ion-item>
+        </ion-item-group>
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-card-title slot="end">PRODUKTLINIE</ion-card-title>
+          </ion-item-divider>
+          <ion-item>
+            <ion-label text-right>BASIS (19)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>EINZELLAGEN (2)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>HANDSCHRIFT (12)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>KLOSTER (5)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>KULT (6)</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label text-right>LITERWEINE (6)</ion-label>
+          </ion-item>
+        </ion-item-group>
+      </ion-col>
+      <ion-col size="9">
+        <ion-card-subtitle>SIE SIND HIER: <ion-text color="primary">Ahrwein-Shop</ion-text>
+        </ion-card-subtitle>
+        <ion-text color="primary">
+          <h1>Ahrwein-Shop</h1>
+        </ion-text>
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="3">
+              <div (click)="goToWines()" class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/kategorien/wein-dagernova-ahrwein-260.png">
+                <div>
+                  <span>WEINE</span>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/kategorien/sekt-seccos-dagernova-ahrwein-260.png">
+                <div>
+                  <span>SEKT & SECCO</span>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/kategorien/braende-dagernova-ahrwein-260.png">
+                <div>
+                  <span>BRÄNDE</span>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/kategorien/delikatessen-dagernova-ahrwein-260.png">
+                <div>
+                  <span>DELIKATESSEN</span>
+                </div>
+              </div>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/kategorien/Probierpaket_Basis.png">
+                <div>
+                  <span>PROBIERPAKETE</span>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/kategorien/4760-praesentekorb-300x300.png">
+                <div>
+                  <span>PRÄSENTE</span>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3">
+              <div (click)="goToEtiketten()" class="kategorie" text-center>
+                <img height="auto" width="80%" src="assets/kategorien/etikett.png">
+                <div>
+                  <span>ETIKETT ERSTELLEN</span>
+                </div>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

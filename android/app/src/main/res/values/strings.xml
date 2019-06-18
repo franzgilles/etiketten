@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">franz</string>
+    <string name="title_activity_main">franz</string>
+    <string name="package_name">de.franz.etiketten</string>
+    <string name="fileprovider_authority">de.franz.etiketten.fileprovider</string>
+    <string name="custom_url_scheme">de.franz.etiketten</string>
+</resources>

@@ -1,0 +1,7 @@
+{
+    "appId": "de.franz.etiketten",
+    "appName": "franz",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "www"
+}

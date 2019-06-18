@@ -1,0 +1,54 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+:root {
+    --ion-font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+ion-card-title,
+h1 {
+    font-family: Gentium Basic;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+ion-card-title[slot="end"] {
+    padding-right: 16px;
+}
+
+b {
+    color: var(--ion-color-secondary);
+}
+
+
+ion-item {
+    --ion-item-border-color: black;
+}
+
+ion-item-divider {
+    padding-top: 28px;
+    --ion-item-border-color: transparent;
+}
+
+ion-searchbar {
+    max-width: 280px;
+    --icon-color: var(--ion-color-primary);
+}
+
+
+.tbar{
+    ion-col:hover{
+        cursor: pointer;
+    }
+}

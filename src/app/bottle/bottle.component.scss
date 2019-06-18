@@ -1,0 +1,40 @@
+:host {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+
+.bottle-image {
+    height: 400px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.image {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background: url(../../assets/hochzeit.png);
+    background-position: center;
+    background-size: cover;
+    right: 5px;
+    bottom: 5px;
+}
+
+.text {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: var(--ion-color-secondary);
+    font-size: 1.6em;
+    text-shadow: 0.5px 0.5px white;
+}
+
+
+.dropzone {
+    position: relative;
+    background: var(--ion-color-light);
+    height: 300px;
+    width: 100%;
+}
