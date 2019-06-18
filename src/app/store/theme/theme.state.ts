@@ -11,7 +11,7 @@ export interface ThemeStateModel {
 @State<ThemeStateModel>({
   name: 'theme',
   defaults: {
-    currentTheme: 'dark',
+    currentTheme: 'light',
     availableThemes: {
       dark: 'light',
       light: 'dark'
