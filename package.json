@@ -16,7 +16,7 @@
         "android": "node scripts run --platform android",
         "electron": "node scripts run --platform electron",
         "ios": "node scripts run --platform ios",
-        "gh-pages": "ng build --base-href 'https://garygrossgarten.de/' --prod && npx ngh --dir=www/"
+        "gh-pages": "ng build --base-href 'https://franzgilles.github.io/etiketten/' --prod && npx angular-cli-ghpages --dir www/"
     },
     "private": true,
     "dependencies": {
